@@ -64,7 +64,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.2rem;
     margin-bottom: 0.5rem;
     background-color: var(--grey);
     border-radius: 0.5rem;
@@ -97,7 +97,7 @@ a{
   .library{
     background-color: var(--grey);
     border-radius: 0.5rem;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1.2rem;
     overflow: hidden;
     height: 100%;
   }
@@ -152,9 +152,11 @@ a{
   .main-content{
     padding: 0rem 1rem;
   }
-  
-  .album-flex {
-    margin-bottom: 1rem !important;
+
+  .album-flex:hover {
+    background-color: hsla(0,0%,100%,.1);
+    transition: background-color .2s ease;
+    border-radius: 4px;
   }
   
   .albums {
@@ -167,6 +169,11 @@ a{
     height: 3rem !important;
     width: 3rem !important;
     border-radius: 0.2rem;
+    margin-left: 0.8rem;
+  }
+
+  .col-flex {
+    padding: 0.8rem 0;
   }
   
   .col-flex p {
