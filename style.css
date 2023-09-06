@@ -26,6 +26,10 @@ html, body {
     opacity: 0.7;
 }
 
+.br-50{
+  border-radius: 50% !important;
+}
+
 a{
     color: var(--white);
     text-decoration: none;
@@ -174,7 +178,7 @@ a{
     height: 3.3rem !important;
     width: 3.3rem !important;
     border-radius: 0.2rem;
-    margin-left: 0.8rem;
+    margin-left: 0.5rem;
   }
 
   .col-flex {
@@ -267,6 +271,7 @@ a{
   
   .card-name {
     margin: 0.25rem 0;
+    font-weight: 600;
   }
   
   .card-description {
