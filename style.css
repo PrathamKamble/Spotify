@@ -31,6 +31,10 @@ a{
     text-decoration: none;
 }
 
+#artist {
+  border-radius: 50%;  
+}
+
 .my-container{
     display: flex;
     flex: 1;
@@ -38,7 +42,7 @@ a{
 }
 
 .side-bar{
-    flex: 0.25;
+    flex: 0.23;
     background-color: var(--black);
     margin-right: 0.5rem;
     border-radius: 0.5rem;
@@ -167,8 +171,8 @@ a{
   }
   
   .album-cover {
-    height: 3rem !important;
-    width: 3rem !important;
+    height: 3.3rem !important;
+    width: 3.3rem !important;
     border-radius: 0.2rem;
     margin-left: 0.8rem;
   }
@@ -229,6 +233,11 @@ a{
 
   .album-card:hover {
     background: hsla(0,0%,100%,.2);
+  }
+
+  #white:hover ~ .main-container{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 65%, rgba(152,160,168,1) 100%);
   }
 
   .album-card-img{
