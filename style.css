@@ -26,10 +26,6 @@ html, body {
     opacity: 0.7;
 }
 
-.br-50{
-  border-radius: 50% !important;
-}
-
 a{
     color: var(--white);
     text-decoration: none;
@@ -267,6 +263,10 @@ a{
   .card-img {
     width: 100%;
     border-radius: 0.35rem;
+  }
+
+  #card-artist{
+    border-radius: 50% !important;
   }
   
   .card-name {
