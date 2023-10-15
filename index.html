@@ -1,393 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta property="og:image" content="https://prathamkamble.github.io/Spotify/assets/spotify-logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="website icon" href="./assets/logo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta property="og:image" content="https://prathamkamble.github.io/Spotify/assets/spotify-logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="website icon" href="./assets/logo.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="style.css">
-    <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Spotify - Web Player: Music for everyone</title>
 </head>
+
 <body>
-    <div class="my-container">
-        <div class="side-bar">
-            <div class="top-icons">
-                <div class="link-flex opacity-7">
-                    <img src="./assets/home.png" alt="home">
-                    <a href="#">Home</a>
-                </div>
-
-                <div class="link-flex opacity-7">
-                    <img src="./assets/search.png" alt="Search">
-                    <a href="#">Search</a>
-                </div>
-            </div>
-
-            <div class="library">
-                <div class="flex-top">
-                    <div class="link-flex opacity-7">
-                      <img src="./assets/playlist.png" alt="Library" />
-                      <p>Your Library</p>
-                    </div>
-                    <div class="link-flex opacity-7">
-                      <img src="./assets/plus.png" />
-                      <img src="./assets/boxes.png" />
-                    </div>
-                </div>
-
-                <div class="link-flex opacity-7" style="gap: 0.5rem">
-                    <div class="chip">Playlists</div>
-                    <div class="chip">Artists</div>
-                    <div class="chip">Podcasts & Shows</div>
-                </div>
-                
-                <div class="albums">
-                    <div class="flex-top">
-                        <img src="./assets/search.png" />
-                        <p>Recents</p>
-                    </div>
-
-                    <div class="link-flex album-flex">
-                      <img src="./assets/likesong.png" class="album-cover" />
-                      <div class="col-flex">
-                        <p class="album-name">Liked Songs</p>
-                        <p class="opacity-7">Playlist &#x2022; 15 Songs</p>
-                      </div>
-                    </div>
-
-                    <div class="link-flex album-flex">
-                      <img src="./assets/obsessed.jpeg" class="album-cover" />
-                      <div class="col-flex">
-                        <p class="album-name">Obsessed</p>
-                        <p class="opacity-7">Album &#x2022; Riar Saab</p>
-                      </div>
-                    </div>
-
-                    <div class="link-flex album-flex">
-                      <img src="./assets/Punjabi-Hit.jpeg" class="album-cover" />
-                      <div class="col-flex">
-                        <p class="album-name">Punjabi Hits with AP Dhillon</p>
-                        <p class="opacity-7">Playlist &#x2022; Spotify</p>
-                      </div>
-                    </div>
-
-                    <div class="link-flex album-flex">
-                      <img src="./assets/B&Chill.jpeg" class="album-cover" />
-                      <div class="col-flex">
-                        <p class="album-name">Bollywood & Chill</p>
-                        <p class="opacity-7">Playlist &#x2022; Spotify</p>
-                      </div>
-                    </div>
-
-                    <div class="link-flex album-flex">
-                      <img src="./assets/artists/arjit.jpg" class="album-cover" id="artist"/>
-                      <div class="col-flex">
-                        <p class="album-name">Arijit Singh</p>
-                        <p class="opacity-7">Artist</p>
-                      </div>
-                    </div>
-
-                    <div class="link-flex album-flex">
-                      <img src="./assets/artists/divine.jpeg" class="album-cover" id="artist"/>
-                      <div class="col-flex">
-                        <p class="album-name">Divine</p>
-                        <p class="opacity-7">Artist</p>
-                      </div>
-                    </div>
-
-                    <div class="link-flex album-flex">
-                      <img src="./assets/artists/AP-dhillon.jpeg" class="album-cover" id="artist"/>
-                      <div class="col-flex">
-                        <p class="album-name">AP Dhillon</p>
-                        <p class="opacity-7">Artist</p>
-                      </div>
-                    </div>
-
-                    <div class="link-flex album-flex">
-                      <img src="./assets/artists/emiway.jpeg" class="album-cover" id="artist"/>
-                      <div class="col-flex">
-                        <p class="album-name">Emiway Bantai</p>
-                        <p class="opacity-7">Artist</p>
-                      </div>
-                    </div>
-
-                    <div class="link-flex album-flex">
-                      <img src="./assets/artists/badshah.jpeg" class="album-cover" id="artist"/>
-                      <div class="col-flex">
-                        <p class="album-name">Badshah</p>
-                        <p class="opacity-7">Artist</p>
-                      </div>
-                    </div>
-
-                    <div class="link-flex album-flex">
-                      <img src="./assets/artists/sidhuu.jpeg" class="album-cover" id="artist"/>
-                      <div class="col-flex">
-                        <p class="album-name">Sidhu Mosse Wala</p>
-                        <p class="opacity-7">Artist</p>
-                      </div>
-                    </div>
-                    <div class="link-flex album-flex">
-                      <img src="./assets/sidhuu.jpeg" class="album-cover" id="artist"/>
-                      <div class="col-flex">
-                        <p class="album-name">Sidhu Mosse Wala</p>
-                        <p class="opacity-7">Artist</p>
-                      </div>
-                    </div>
-                    <div class="link-flex album-flex">
-                      <img src="./assets/sidhuu.jpeg" class="album-cover" id="artist"/>
-                      <div class="col-flex">
-                        <p class="album-name">Sidhu Mosse Wala</p>
-                        <p class="opacity-7">Artist</p>
-                      </div>
-                    </div>
-                    <div class="link-flex album-flex">
-                      <img src="./assets/sidhuu.jpeg" class="album-cover" id="artist"/>
-                      <div class="col-flex">
-                        <p class="album-name">Sidhu Mosse Wala</p>
-                        <p class="opacity-7">Artist</p>
-                      </div>
-                    </div>
-                    <div class="link-flex album-flex">
-                      <img src="./assets/sidhuu.jpeg" class="album-cover" id="artist"/>
-                      <div class="col-flex">
-                        <p class="album-name">Sidhu Mosse Wala</p>
-                        <p class="opacity-7">Artist</p>
-                      </div>
-                    </div>
-                </div>                
-            </div>
+  <div class="my-container">
+    <div class="side-bar">
+      <div class="top-icons">
+        <div class="link-flex opacity-7">
+          <img src="./assets/home.png" alt="home">
+          <a href="#">Home</a>
         </div>
 
-    <div class="main-container">
-            <div class="navbar">
-                <div class="link-flex opacity-7">
-                  <img src="./assets/back_navigation.png" />
-                  <img src="./assets/forward_navigation.png" />
-                </div>
-                <!-- Navbar content -->
-                <div class="link-flex opacity-7" style="gap: 0; column-gap: 0.5rem">
-                  <div class="chip">Upgrade</div>
-                  <div class="chip">Install App</div>
-                </div>
+        <div class="link-flex opacity-7">
+          <img src="./assets/search.png" alt="Search">
+          <a href="#">Search</a>
+        </div>
+      </div>
+
+      <div class="library">
+        <div class="flex-top">
+          <div class="link-flex opacity-7">
+            <img src="./assets/playlist.png" alt="Library" />
+            <p>Your Library</p>
+          </div>
+          <div class="link-flex opacity-7">
+            <img src="./assets/plus.png" />
+            <img src="./assets/boxes.png" />
+          </div>
+        </div>
+
+        <div class="link-flex opacity-7" style="gap: 0.5rem">
+          <div class="chip">Playlists</div>
+          <div class="chip">Artists</div>
+          <div class="chip">Podcasts & Shows</div>
+        </div>
+
+        <div class="albums">
+          <div class="flex-top">
+            <img src="./assets/search.png" />
+            <p>Recents</p>
+          </div>
+
+          <div class="link-flex album-flex">
+            <a href="./playlist.html"><img src="./assets/likesong.png" class="album-cover" /></a>
+            <div class="col-flex">
+              <p><a href="./playlist.html" class="album-name">Liked Songs</a></p>
+              <p class="opacity-7">Playlist &#x2022; 15 Songs</p>
             </div>
+          </div>
 
-        <div class="main-content">
-            <div class="card-bar">
-                <h1>Good Morning</h1>
+          <div class="link-flex album-flex">
+            <img src="./assets/obsessed.jpeg" class="album-cover" />
+            <div class="col-flex">
+              <p class="album-name">Obsessed</p>
+              <p class="opacity-7">Album &#x2022; Riar Saab</p>
             </div>
-            <div class="cards-container" style="gap: 1.5rem;">
-              <div class="link-flex album-card">
-                  <img src="./assets/likesong.png" class="album-card-img" />
-                <div class="album-card-info">
-                    <p class="card-name">Liked Songs</p>
-                </div>
-              </div>
+          </div>
 
-              <div class="link-flex album-card" id="white">
-                  <img src="./assets/artists/arjit.jpg" class="album-card-img" />
-                <div class="album-card-info">
-                    <p class="card-name">Arijit Singh</p>
-                </div>
-              </div>
-
-              <div class="link-flex album-card">
-                  <img src="./assets/artists/badshah.jpeg" class="album-card-img" />
-                <div class="album-card-info">
-                    <p class="card-name">Badshah</p>
-                </div>
-              </div>
-
-              <div class="link-flex album-card">
-                  <img src="./assets/artists/divine.jpeg" class="album-card-img" />
-                <div class="album-card-info">
-                    <p class="card-name">Divine</p>
-                </div>
-              </div>
-              <div class="link-flex album-card">
-                  <img src="./assets/artists/sidhuu.jpeg" class="album-card-img" />
-                <div class="album-card-info">
-                    <p class="card-name">Sidhu Mosse Wala</p>
-                </div>
-              </div>
+          <div class="link-flex album-flex">
+            <img src="./assets/Punjabi-Hit.jpeg" class="album-cover" />
+            <div class="col-flex">
+              <p class="album-name">Punjabi Hits with AP Dhillon</p>
+              <p class="opacity-7">Playlist &#x2022; Spotify</p>
             </div>
+          </div>
 
-            <div class="card-bar">
-                <h2>Made For You</h2>
-                <a href="#">Show all</a>
+          <div class="link-flex album-flex">
+            <img src="./assets/B&Chill.jpeg" class="album-cover" />
+            <div class="col-flex">
+              <p class="album-name">Bollywood & Chill</p>
+              <p class="opacity-7">Playlist &#x2022; Spotify</p>
             </div>
-            <div class="cards-container">
-              <div class="card">
-                <img src="./assets/daily-mix/mix-1.jpeg" class="card-img" />
-                <p class="card-name">Daily Mix 1</p>
-                <p class="card-description">Pritam, Vishal-Shekhar, Shankar-Ehsaan-Loy</p>
-              </div>
+          </div>
 
-              <div class="card">
-                <img src="./assets/daily-mix/mix-2.jpeg" class="card-img" />
-                <p class="card-name">Daily Mix 2</p>
-                <p class="card-description">Emiway Bantai, DIVINE, MC STAN and more</p>
-              </div>
+          <div class="link-flex album-flex">
+            <img src="./assets/artists/arjit.jpg" class="album-cover" id="artist" />
+            <div class="col-flex">
+              <p class="album-name">Arijit Singh</p>
+              <p class="opacity-7">Artist</p>
+            </div>
+          </div>
 
-              <div class="card">
-                  <img src="./assets/daily-mix/mix-3.jpeg" class="card-img" />
-                <p class="card-name">Daily Mix 3</p>
-                <p class="card-description">AP Dhillon, Kaka, DIVINE and more</p>
-              </div>
+          <div class="link-flex album-flex">
+            <img src="./assets/artists/divine.jpeg" class="album-cover" id="artist" />
+            <div class="col-flex">
+              <p class="album-name">Divine</p>
+              <p class="opacity-7">Artist</p>
+            </div>
+          </div>
 
-              <div class="card">
-                <img src="./assets/daily-mix/mix-4.jpeg" class="card-img" />
-                <p class="card-name">Daily Mix 4</p>
-                <p class="card-description">Shankar Mahadevan, Lata Mangeshkar, Abhijeet</p>
-              </div>
+          <div class="link-flex album-flex">
+            <a href="./playlist.html"><img src="./assets/artists/AP-dhillon.jpeg" class="album-cover" id="artist" /></a>
+            <div class="col-flex">
+              <p class="album-name">AP Dhillon</p>
+              <p class="opacity-7">Artist</p>
+            </div>
+          </div>
 
-              <div class="card">
-                <img src="./assets/daily-mix/mix-5.jpeg" class="card-img" />
-                <p class="card-name">Daily Mix 5</p>
-                <p class="card-description">Ajay-Atul, Ajay Gogavale, Vinayak Mali and more</p>
-              </div>
+          <div class="link-flex album-flex">
+            <img src="./assets/artists/emiway.jpeg" class="album-cover" id="artist" />
+            <div class="col-flex">
+              <p class="album-name">Emiway Bantai</p>
+              <p class="opacity-7">Artist</p>
+            </div>
+          </div>
 
-              <div class="card">
-                  <img src="./assets/daily-mix/mix-6.jpeg" class="card-img" />
-                  <p class="card-name">Daily Mix 6</p>
-                <p class="card-description">Vishal-Shekhar, Tanveer Evan, Darshan Raval</p>
-              </div>
+          <div class="link-flex album-flex">
+            <img src="./assets/artists/badshah.jpeg" class="album-cover" id="artist" />
+            <div class="col-flex">
+              <p class="album-name">Badshah</p>
+              <p class="opacity-7">Artist</p>
+            </div>
+          </div>
 
-              <div class="card">
+          <div class="link-flex album-flex">
+            <img src="./assets/artists/sidhuu.jpeg" class="album-cover" id="artist" />
+            <div class="col-flex">
+              <p class="album-name">Sidhu Mosse Wala</p>
+              <p class="opacity-7">Artist</p>
+            </div>
+          </div>
+          <div class="link-flex album-flex">
+            <img src="./assets/sidhuu.jpeg" class="album-cover" id="artist" />
+            <div class="col-flex">
+              <p class="album-name">Sidhu Mosse Wala</p>
+              <p class="opacity-7">Artist</p>
+            </div>
+          </div>
+          <div class="link-flex album-flex">
+            <img src="./assets/sidhuu.jpeg" class="album-cover" id="artist" />
+            <div class="col-flex">
+              <p class="album-name">Sidhu Mosse Wala</p>
+              <p class="opacity-7">Artist</p>
+            </div>
+          </div>
+          <div class="link-flex album-flex">
+            <img src="./assets/sidhuu.jpeg" class="album-cover" id="artist" />
+            <div class="col-flex">
+              <p class="album-name">Sidhu Mosse Wala</p>
+              <p class="opacity-7">Artist</p>
+            </div>
+          </div>
+          <div class="link-flex album-flex">
+            <img src="./assets/sidhuu.jpeg" class="album-cover" id="artist" />
+            <div class="col-flex">
+              <p class="album-name">Sidhu Mosse Wala</p>
+              <p class="opacity-7">Artist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container" id="main-container">
+      <div class="navbar">
+        <div class="link-flex opacity-7">
+          <img src="./assets/back_navigation.png" />
+          <img src="./assets/forward_navigation.png" />
+        </div>
+        <!-- Navbar content -->
+        <div class="link-flex opacity-7" style="gap: 0; column-gap: 0.5rem">
+          <div class="chip">Upgrade</div>
+          <div class="chip">Install App</div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="card-bar">
+          <h1>Good Morning</h1>
+        </div>
+        <div class="cards-container" style="gap: 1.5rem;">
+          <div class="link-flex album-card">
+            <img src="./assets/likesong.png" class="album-card-img" />
+            <div class="album-card-info">
+              <p><a href="./playlist.html" class="card-name">Liked Songs</a></p>
+            </div>
+          </div>
+
+          <div class="link-flex album-card" id="white">
+            <img src="./assets/artists/arjit.jpg" class="album-card-img" />
+            <div class="album-card-info">
+              <p class="card-name">Arijit Singh</p>
+            </div>
+          </div>
+
+          <div class="link-flex album-card">
+            <img src="./assets/artists/badshah.jpeg" class="album-card-img" />
+            <div class="album-card-info">
+              <p class="card-name">Badshah</p>
+            </div>
+          </div>
+
+          <div class="link-flex album-card">
+            <img src="./assets/artists/divine.jpeg" class="album-card-img" />
+            <div class="album-card-info">
+              <p class="card-name">Divine</p>
+            </div>
+          </div>
+          <div class="link-flex album-card">
+            <img src="./assets/artists/sidhuu.jpeg" class="album-card-img" />
+            <div class="album-card-info">
+              <p class="card-name">Sidhu Mosse Wala</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-bar">
+          <h2>Made For You</h2>
+          <a href="#">Show all</a>
+        </div>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/daily-mix/mix-1.jpeg" class="card-img" />
+            <p class="card-name">Daily Mix 1</p>
+            <p class="card-description">Pritam, Vishal-Shekhar, Shankar-Ehsaan-Loy</p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/daily-mix/mix-2.jpeg" class="card-img" />
+            <p class="card-name">Daily Mix 2</p>
+            <p class="card-description">Emiway Bantai, DIVINE, MC STAN and more</p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/daily-mix/mix-3.jpeg" class="card-img" />
+            <p class="card-name">Daily Mix 3</p>
+            <p class="card-description">AP Dhillon, Kaka, DIVINE and more</p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/daily-mix/mix-4.jpeg" class="card-img" />
+            <p class="card-name">Daily Mix 4</p>
+            <p class="card-description">Shankar Mahadevan, Lata Mangeshkar, Abhijeet</p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/daily-mix/mix-5.jpeg" class="card-img" />
+            <p class="card-name">Daily Mix 5</p>
+            <p class="card-description">Ajay-Atul, Ajay Gogavale, Vinayak Mali and more</p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/daily-mix/mix-6.jpeg" class="card-img" />
+            <p class="card-name">Daily Mix 6</p>
+            <p class="card-description">Vishal-Shekhar, Tanveer Evan, Darshan Raval</p>
+          </div>
+
+          <!-- <div class="card">
                 <img src="./assets/daily-mix/mix-7.jpeg" class="card-img" />
                 <p class="card-name">Discover Weekly</p>
                 <p class="card-description">Catch all the latest music from artists...</p>
-            </div>
-            </div>
-            
-            <div class="card-bar">
-                <h3>Recently Played</h3>
-                <a href="#">Show all</a>
-            </div>
-            <div class="cards-container">
-                <div class="card">
-                    <img src="./assets/hits/hit-1.jpeg" class="card-img" />
-                    <p class="card-name">Bollywood Mush</p>
-                    <p class="card-description">Let these songs be the background score ....</p>
-                </div>
+              </div> -->
+        </div>
 
-                <div class="card">
-                    <img src="./assets/hits/hit-2.jpeg" class="card-img" />
-                    <p class="card-name">Bollywood Butter</p>
-                    <p class="card-description">B bole toh biggest blockbusters, right ....</p>
-                </div>
+        <div class="card-bar">
+          <h3>Recently Played</h3>
+          <a href="#">Show all</a>
+        </div>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/hits/hit-1.jpeg" class="card-img" />
+            <p class="card-name">Bollywood Mush</p>
+            <p class="card-description">Let these songs be the background score ....</p>
+          </div>
 
-                <div class="card">
-                    <img src="./assets/hits/hit-3.jpeg" class="card-img" />
-                    <p class="card-name">Hot Hits Hindi</p>
-                    <p class="card-description">Hottest Hindi music served here. Cover ....</p>
-                </div>
+          <div class="card">
+            <img src="./assets/hits/hit-2.jpeg" class="card-img" />
+            <p class="card-name">Bollywood Butter</p>
+            <p class="card-description">B bole toh biggest blockbusters, right ....</p>
+          </div>
 
-                <div class="card">
-                    <img src="./assets/hits/hit-4.jpeg" class="card-img" />
-                    <p class="card-name">Hot Hits Punjabi</p>
-                    <p class="card-description">Catch the hottest Punjabi tracks with Karan Aujla.....</p>
-                </div>
+          <div class="card">
+            <img src="./assets/hits/hit-3.jpeg" class="card-img" />
+            <p class="card-name">Hot Hits Hindi</p>
+            <p class="card-description">Hottest Hindi music served here. Cover ....</p>
+          </div>
 
-                <div class="card">
-                    <img src="./assets/hits/hit-5.jpeg" class="card-img" />
-                    <p class="card-name">Trending Now Pun..</p>
-                    <p class="card-description">All that's viral, stream now!</p>
-                </div>
+          <div class="card">
+            <img src="./assets/hits/hit-4.jpeg" class="card-img" />
+            <p class="card-name">Hot Hits Punjabi</p>
+            <p class="card-description">Catch the hottest Punjabi tracks with Karan Aujla.....</p>
+          </div>
 
-                <div class="card">
-                    <img src="./assets/hits/hit-6.jpeg" class="card-img" />
-                    <p class="card-name">Punjabi 101</p>
-                    <p class="card-description">Ultimate 101 Punjabi Hits with AP Dhillon</p>
-                </div>
+          <div class="card">
+            <img src="./assets/hits/hit-5.jpeg" class="card-img" />
+            <p class="card-name">Trending Now Pun..</p>
+            <p class="card-description">All that's viral, stream now!</p>
+          </div>
 
-                <!-- <div class="card">
+          <div class="card">
+            <img src="./assets/hits/hit-6.jpeg" class="card-img" />
+            <p class="card-name">Punjabi 101</p>
+            <p class="card-description">Ultimate 101 Punjabi Hits with AP Dhillon</p>
+          </div>
+
+          <!-- <div class="card">
                     <img src="./assets/mix2.jpeg" class="card-img" />
                     <p class="card-name">Workout</p>
                     <p class="card-description">Pop hits to keep you fresh!</p>
                 </div> -->
-            </div>
+        </div>
 
-            <div class="card-bar">
-                <h3>Artist</h3>
-                <a href="#">Show all</a>
-            </div>
-            <div class="cards-container">
-                <div class="card">
-                    <img src="./assets/artists/AP-dhillon-2.jpeg" class="card-img" id="card-artist" />
-                    <p class="card-name">AP Dhillon</p>
-                    <p class="card-description">Artist</p>
-                </div>
-                <div class="card">
-                    <img src="./assets/artists/arjit.jpg" class="card-img" id="card-artist" />
-                    <p class="card-name">Arijit Singh</p>
-                    <p class="card-description">Artist</p>
-                </div>
-                <div class="card">
-                    <img src="./assets/artists/badshah-2.jpeg" class="card-img" id="card-artist" />
-                    <p class="card-name">Badshah</p>
-                    <p class="card-description">Artist</p>
-                </div>
-                <div class="card">
-                    <img src="./assets/artists/divine.jpeg" class="card-img" id="card-artist" />
-                    <p class="card-name">Divine</p>
-                    <p class="card-description">Artist</p>
-                </div>
-                <div class="card">
-                    <img src="./assets/artists/emiway-2.jpeg" class="card-img" id="card-artist" />
-                    <p class="card-name">Emiway Bantai</p>
-                    <p class="card-description">Artist</p>
-                </div>
-                <div class="card">
-                    <img src="./assets/artists/sidhuu.jpeg" class="card-img" id="card-artist" />
-                    <p class="card-name">Sidhu Mosse Wala</p>
-                    <p class="card-description">Artist</p>
-                </div>
-                <div class="card">
+        <div class="card-bar">
+          <h3>Artist</h3>
+          <a href="#">Show all</a>
+        </div>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/artists/AP-dhillon-2.jpeg" class="card-img" id="card-artist" />
+            <p class="card-name">AP Dhillon</p>
+            <p class="card-description">Artist</p>
+          </div>
+          <div class="card">
+            <img src="./assets/artists/arjit.jpg" class="card-img" id="card-artist" />
+            <p class="card-name">Arijit Singh</p>
+            <p class="card-description">Artist</p>
+          </div>
+          <div class="card">
+            <img src="./assets/artists/badshah-2.jpeg" class="card-img" id="card-artist" />
+            <p class="card-name">Badshah</p>
+            <p class="card-description">Artist</p>
+          </div>
+          <div class="card">
+            <img src="./assets/artists/divine.jpeg" class="card-img" id="card-artist" />
+            <p class="card-name">Divine</p>
+            <p class="card-description">Artist</p>
+          </div>
+          <div class="card">
+            <img src="./assets/artists/emiway-2.jpeg" class="card-img" id="card-artist" />
+            <p class="card-name">Emiway Bantai</p>
+            <p class="card-description">Artist</p>
+          </div>
+          <div class="card">
+            <img src="./assets/artists/sidhuu.jpeg" class="card-img" id="card-artist" />
+            <p class="card-name">Sidhu Mosse Wala</p>
+            <p class="card-description">Artist</p>
+          </div>
+          <!-- <div class="card">
                     <img src="./assets/artists/Harrdy-sandhu.jpg" class="card-img" id="card-artist" />
                     <p class="card-name">Harrdy Sandhu</p>
                     <p class="card-description">Artist</p>
-                </div>
-            </div>
+                </div> -->
         </div>
+      </div>
     </div>
 
-        <div class="player">
-            <div class="volume-controls"></div>
-            <div class="player-center">
-                <div class="player-controls">
-                    <img style="height: 1rem; opacity: 0.8" src="./assets/shuffle.png"/>
-                    
-                    <img style="height: 1rem; opacity: 0.8" src="./assets/previous_musicbar.png"/>
+    <div class="player">
+      <div class="volume-controls"></div>
+      <div class="player-center">
+        <div class="player-controls">
+          <img style="height: 1rem; opacity: 0.8" src="./assets/shuffle.png" />
 
-                    <img style="height: 2rem;" src="./assets/play_musicbar.png"/>
+          <img style="height: 1rem; opacity: 0.8" src="./assets/previous_musicbar.png" />
 
-                  <img style="height: 1rem; opacity: 0.8" src="./assets/next_musicbar.png"/>
+          <img style="height: 2rem;" src="./assets/play_musicbar.png" />
 
-                  <img style="height: 1rem; opacity: 0.8" src="./assets/loop.png"/>
-                </div>
+          <img style="height: 1rem; opacity: 0.8" src="./assets/next_musicbar.png" />
 
-                <div class="player-timeline">
-                  <span class="current-time">0:00</span>
-
-                  <input type="range" class="timeline-slider" min="0" max="100" step="1" value="0"/>
-
-                  <span class="total-time">0:00</span>
-                </div>
-            </div>
-
-            <div class="volume-controls" style="position: relative;">
-                <img src="./assets/device.png" style="height: 1rem; margin-right: 1rem; opacity: 0.8" alt="Volume"/>
-  
-                <img src="./assets/playlist.png" style="height: 1rem; margin-right: 1rem; opacity: 0.8" alt="Settings"/>
-  
-                <img src="./assets/music.png" style="height: 1rem; margin-right: 1rem; opacity: 0.8" alt="Fullscreen"/>
-  
-                <input type="range" class="volume-slider" min="0" max="100" step="1" value="0"/>
-            </div>
+          <img style="height: 1rem; opacity: 0.8" src="./assets/loop.png" />
         </div>
-    </div>
 
-    <script src="script.js"></script>
+        <div class="player-timeline">
+          <span class="current-time">0:00</span>
+
+          <input type="range" class="timeline-slider" min="0" max="100" step="1" value="0" />
+
+          <span class="total-time">0:00</span>
+        </div>
+      </div>
+
+      <div class="volume-controls" style="position: relative;">
+        <img src="./assets/device.png" style="height: 1rem; margin-right: 1rem; opacity: 0.8" alt="Volume" />
+
+        <img src="./assets/playlist.png" style="height: 1rem; margin-right: 1rem; opacity: 0.8" alt="Settings" />
+
+        <img src="./assets/music.png" style="height: 1rem; margin-right: 1rem; opacity: 0.8" alt="Fullscreen" />
+
+        <input type="range" class="volume-slider" min="0" max="100" step="1" value="0" />
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>

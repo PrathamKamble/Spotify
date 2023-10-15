@@ -1,0 +1,57 @@
+.s-flex {
+    display: flex;
+    align-items: center;
+}
+
+.playlist-container {
+    flex: 0.8;
+    background-color: var(--light-grey);
+    overflow-y: auto;
+    /* background: rgb(0, 0, 0); */
+}
+
+#playlist-container {
+    border-radius: 0.5rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 65%, rgba(29, 14, 67, 1) 100%);
+    padding-bottom: 6rem;
+}
+
+.playlist-container {
+    flex: 0.8;
+    overflow-y: auto;
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist-content {
+    padding: 1rem 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    text-align: left;
+    padding: 0.5rem 0.8rem; 
+}
+
+.song-card{
+
+}
+
+.song-card img{
+    width: 45px;
+    height: 45px;
+}
+
+.song-card:hover {
+    background-color: hsla(0, 0%, 100%, .1);
+    transition: background-color .1s ease;
+}
+
+.song-card:focus {
+    background-color: hsla(0,0%,100%,.3);;
+}
