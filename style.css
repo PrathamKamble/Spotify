@@ -315,6 +315,7 @@ a{
     align-items: center;
     margin-bottom: 8px;
     gap: 16px;
+    cursor: pointer;
   }
   
   .volume-controls {
@@ -338,11 +339,13 @@ a{
   .timeline-slider {
     margin: 0 10px;
     width: 32vw;
+    cursor: pointer;
   }
   
   .volume-slider {
     width: 100px;
     height: 4px;
+    cursor: pointer;
   }
   
   .timeline-slider:hover,

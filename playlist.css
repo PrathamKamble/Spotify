@@ -38,6 +38,10 @@ td{
     padding: 0.5rem 0.8rem; 
 }
 
+.song-card { 
+    cursor: pointer;
+}
+
 .song-card img{
     width: 45px;
     height: 45px;
@@ -50,4 +54,30 @@ td{
 
 .song-card:focus {
     background-color: hsla(0,0%,100%,.3);;
+}
+
+.mini-play-icon {
+    display: none;
+    transition: all .1s ease-in-out;
+}
+
+.song-card:hover #num-line{
+    display: none;
+}
+
+.song-card:hover .mini-play-icon{
+    display: block !important;
+}
+
+.mini-play-icon:hover {
+    color: #1bd760;
+}
+
+.volume-controls {
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.volume-controls .Img {
+    display: flex;
 }
