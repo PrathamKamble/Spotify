@@ -14,7 +14,7 @@ window.onload = () => {
         container.style.opacity = "1";
     });
     
-    document.getElementById('body').addEventListener('click', () => {
+    container.addEventListener('click', () => {
         modal.style.top = "-270px";
         container.style.opacity = "1";
     })
