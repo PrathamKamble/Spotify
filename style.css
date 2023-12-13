@@ -31,6 +31,113 @@ a{
     text-decoration: none;
 }
 
+/* popup css start */
+
+#popup-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -270px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  transition: all .5s ease-in-out;
+}
+
+.popup-card {
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  border-radius: 0.5rem;
+  max-width: fit-content;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  background-color: #fff;
+  outline: 2px solid #0eb74c;
+}
+
+.logo-name {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-left: 15px;
+}
+
+.dismiss {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background: none;
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 300;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  transition: .3s ease;
+  border: none;
+}
+
+.dismiss:hover {
+  transform: scale(1.5)
+}
+
+.header {
+  padding: 2rem;
+}
+
+.image {
+  display: flex;
+  background-color: #e2feee;
+  flex-shrink: 0;
+  justify-content: start;
+  align-items: center;
+  width: 25rem;
+  height: 3rem;
+  border-radius: 9999px;
+}
+
+.image svg {
+  color: #0afa2a;
+  width: 2rem;
+  height: 2rem;
+}
+
+.content {
+  margin-top: 0.75rem;
+}
+
+.title {
+  color: #066e29;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.message {
+  padding: 0;
+  margin-top: 0.5rem;
+  color: #595b5f;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  list-style-type: none;
+  text-align: left;
+}
+
+.message li {
+  margin-bottom: 5px;
+}
+
+.actions {
+  margin: 0.75rem 1rem;
+}
+
+/* popup css end */
+
 #artist {
   border-radius: 50%;  
 }
