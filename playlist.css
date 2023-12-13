@@ -3,6 +3,12 @@
     align-items: center;
 }
 
+.playlist-navbar {
+    background-color: #201640;
+    position: sticky;
+    top: 0;
+}
+
 .playlist-container {
     flex: 0.8;
     background-color: var(--light-grey);
@@ -26,6 +32,10 @@
 
 .playlist-content {
     padding: 1rem 1rem;
+} 
+
+.playlist-navbar > .link-flex > span {
+    opacity: 1 !important;
 }
 
 table {
@@ -45,10 +55,12 @@ td{
 .song-card img{
     width: 45px;
     height: 45px;
+    border-radius: 5px;
 }
 
 .song-card:hover {
     background-color: hsla(0, 0%, 100%, .1);
+    border-radius: 10px;
     transition: background-color .1s ease;
 }
 
@@ -67,10 +79,11 @@ td{
 
 .song-card:hover .mini-play-icon{
     display: block !important;
+    color: #fff;
 }
 
 .mini-play-icon:hover {
-    color: #1bd760;
+    color: #1bd760 !important;
 }
 
 .volume-controls {
@@ -78,6 +91,31 @@ td{
     justify-content: flex-start;
 }
 
-.volume-controls .Img {
+.volume-controls .Img img{
     display: flex;
+    width: 62px;
+    border-radius: 5px;
+}
+
+.liked-song {
+    color: #1bd760;
+}
+
+#main-head {
+    position: sticky;
+    top: 70.4px;
+    background-color: #121212;
+}
+
+#main,
+#tbody {
+    color: #a19d98;
+}
+
+.song-name {
+    color: #fff;
+}
+
+.song-card:hover .song-album-name {
+    color: #fff;
 }
